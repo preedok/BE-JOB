@@ -1,11 +1,11 @@
 <br />
 <p align="center">
 <div align="center">
-  <img height="150" src="https://iili.io/H3ze4kv.png" alt="telegram" border="0"/>
+  <img height="150" src="https://iili.io/H3z67kX.png" alt="logo" border="0"/>
 </div>
-  <h3 align="center">Backend insan cita chat</h3>
+  <h3 align="center">Backend Hire Job</h3>
   <p align="center">
-    <a href="https://github.com/Iqbalapredo/BE-CHAT/"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/preedok/BE-JOB"><strong>Explore the docs »</strong></a>
     <br />
     <a href="/">View Demo</a>
     ·
@@ -36,14 +36,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Telegram Rest API is server api that used in Telegram . This server manage all function and endpoint in telegram app such as create, add , update and delete message. Authentication about login, register and getting profile info also edit profile as well.
+This api is for hirejob client. Some feature on this aplication is CRUD jobseeker, CRUD recruiter, Send default message, edit profile jobseeker and recruiter, upload portofolio, upload experience, hire jobseeker 
 
 ### Built With
 
 - [Node.js](https://nodejs.org/en/)
 - [Express.js](https://expressjs.com/)
 - [JSON Web Tokens](https://jwt.io/)
-- [Socket IO](https://socket.io/docs/v4/)
 - and other
 
 <!-- GETTING STARTED -->
@@ -64,11 +63,11 @@ This is an example of how to list things you need to use the software and how to
 
 - Clone This Back End Repo
 ```
-git clone https://github.com/Iqbalapredo/BE-CHAT.git
+git clone https://github.com/Iqbalapredo/BE-HIREJOB.git
 ```
 - Go To Folder Repo
 ```
-cd Telegram-BE
+cd BE
 ```
 - Install Module
 ```
@@ -110,15 +109,15 @@ Contributions are what make the open source community such an amazing place to b
 
 
 ## Related Project
-:rocket: [`Backend Telegram`](https://github.com/Iqbalapredo/BE-CHAT)
+:rocket: [`Backend Hire Job`](https://github.com/preedok/BE-JOB)
 
-:rocket: [`Frontend Telegram`](https://github.com/Iqbalapredo/FE-CHAT)
+:rocket: [`Frontend Hire Job`](https://github.com/preedok/FE-JOB)
 
-:rocket: [`Demo Telegram`](/)
+:rocket: [`Demo Hire Job`](/)
 
 <!-- CONTACT -->
 ## Contact
 
 My Email : iqbalapreedo@gmail.com
 
-Project Link: [https://github.com/Iqbalapredo/BE-CHAT/](https://github.com/Iqbalapredo/BE-CHAT)
+Project Link: [https://github.com/preedok/BE-JOB/](https://github.com/preedok/BE-JOB)
