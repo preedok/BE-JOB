@@ -23,7 +23,7 @@ app.use(
 app.use(cookieParser());
 app.use(
   helmet({
-    crossOriginResourcePolicy: true,
+    crossOriginResourcePolicy: false,
   })
 );
 app.use(xss());
