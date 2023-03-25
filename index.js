@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 4000;
 
 app.use(cors({
   credentials: true,
-  origin:["https://portalhirejob.vercel.app", "http://localhost:3000"]
+  origin:["https://portalkerja2023.vercel.app", "http://localhost:3000"]
 }));
 app.use(cookieParser());
 app.use(
