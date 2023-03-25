@@ -69,18 +69,24 @@ const userController = {
       user.token = generate(payload);
       user.refreshToken = reGenerate(payload);
 
+      // res.cookie("token", user.token, {
+      //   httpOnly: true,
+      //   maxAge: 60 * 60 * 24 * 7 * 1000,
+      //   secure: false,
+      //   path: "/",
+      //   sameSite: "strict"
+      // });
+
       response(res, user, 200, "Login berhasil");
     } catch (err) {
       console.log(err);
       next(new createError.InternalServerError());
     }
   },
-
   // profile
   getUserDetail: async (req, res, next) => {
     try {
       const { id } = req.params;
-
       const data = await userModel.getUserDetail(id);
       const [user] = data.rows;
 
