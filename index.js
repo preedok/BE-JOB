@@ -1,9 +1,9 @@
 require("dotenv").config();
 
 const express = require("express");
-// const cors = require("cors");
+const cors = require("cors");
 const cookieParser = require('cookie-parser');
-// const helmet = require("helmet");
+const helmet = require("helmet");
 const xss = require("xss-clean");
 const morgan = require("morgan");
 const createError = require("http-errors");
@@ -14,16 +14,16 @@ const main = require("./src/router");
 const app = express();
 const PORT = process.env.PORT || 4000;
 
-// app.use(cors({
-//   credentials: true,
-//   origin:["https://portalkerja2023.vercel.app", "http://localhost:3000"]
-// }));
-// app.use(cookieParser());
-// app.use(
-//   helmet({
-//     crossOriginResourcePolicy: false,
-//   })
-// );
+app.use(cors({
+  credentials: true,
+  origin:["https://portalkerja2023.vercel.app", "http://localhost:3000"]
+}));
+app.use(cookieParser());
+app.use(
+  helmet({
+    crossOriginResourcePolicy: false,
+  })
+);
 app.use(xss());
 app.use(morgan("dev"));
 app.use(express.json());
