@@ -7,7 +7,7 @@
   <p align="center">
     <a href="https://github.com/preedok/BE-JOB"><strong>Explore the docs »</strong></a>
     <br />
-    <a href="/">View Demo</a>
+    <a href="https://be-job-production.up.railway.app/">View Demo</a>
     ·
  
   </p>
@@ -67,7 +67,7 @@ git clone https://github.com/preedok/BE-JOB.git
 ```
 - Go To Folder Repo
 ```
-cd BE
+cd BE-JOB
 ```
 - Install Module
 ```
@@ -92,7 +92,15 @@ DB_PASSWORD
 DB_PORT
 PORT
 JWT_SECRET
+
+CLOUD_NAME
+API_KEY
+API_SECRET
 ```
+
+## Endpoint List
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://documenter.getpostman.com/view/23292228/2s93RUvsMq)
 
 
 <!-- CONTRIBUTING -->
@@ -113,7 +121,7 @@ Contributions are what make the open source community such an amazing place to b
 
 :rocket: [`Frontend Hire Job`](https://github.com/preedok/FE-JOB)
 
-:rocket: [`Demo Hire Job`](/)
+:rocket: [`Demo Hire Job`](https://be-job-production.up.railway.app/)
 
 <!-- CONTACT -->
 ## Contact
