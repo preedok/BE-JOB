@@ -121,7 +121,7 @@ Contributions are what make the open source community such an amazing place to b
 
 :rocket: [`Frontend Hire Job`](https://github.com/preedok/FE-JOB)
 
-:rocket: [`Demo Hire Job`](https://be-job-production.up.railway.app/)
+:rocket: [`Demo Hire Job`](https://portalkerja2023.vercel.app/)
 
 <!-- CONTACT -->
 ## Contact
